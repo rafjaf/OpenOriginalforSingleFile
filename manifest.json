@@ -1,6 +1,6 @@
 {
   "name": "Open Original for SingleFile",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "description": "This extension opens the original url of a file saved with SingleFile extension.",
   "icons": {"16": "icon16.png",
@@ -18,5 +18,5 @@
   "page_action": {
     "default_icon": "icon16.png"
   },
-  "permissions": ["tabs"]
+  "permissions": ["storage", "tabs"]
 }
